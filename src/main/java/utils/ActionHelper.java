@@ -6,7 +6,7 @@ import org.openqa.selenium.interactions.Actions;
 public class ActionHelper {
 
     public static void clickOnElement(WebElement element){
-        Actions actions = new Actions(DriverSetup.getInstance());
+        Actions actions = new Actions(DriverFactory.getDriver());
         System.out.println("Waiting until element is visible: "+ element);
         WaitHelper.waitUntilElementIsVisible(element);
         System.out.println("Waiting until element is clickable: "+ element);
@@ -16,13 +16,13 @@ public class ActionHelper {
     }
 
     public static void waitUntilElementIsVisible(WebElement element){
-        Actions actions = new Actions(DriverSetup.getInstance());
+        Actions actions = new Actions(DriverFactory.getDriver());
         System.out.println("Waiting until element is visible: "+ element);
         WaitHelper.waitUntilElementIsVisible(element);
     }
 
     public static void sendKeyAction(WebElement element, String text){
-        Actions actions = new Actions(DriverSetup.getInstance());
+        Actions actions = new Actions(DriverFactory.getDriver());
         System.out.println("Waiting until element is visible: "+ element);
         WaitHelper.waitUntilElementIsVisible(element);
         actions.sendKeys(text).build().perform();

@@ -12,23 +12,23 @@ public class WaitHelper {
 
     public static void waitUntilElementIsVisible(WebElement element){
 
-        wait = new WebDriverWait(DriverSetup.getInstance(),10);
+        wait = new WebDriverWait(DriverFactory.getDriver(),10);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
     public static void  waitUntilElementIsClickable(WebElement element){
 
-        wait = new WebDriverWait(DriverSetup.getInstance(),10);
+        wait = new WebDriverWait(DriverFactory.getDriver(),10);
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     public static void  waitOnly(){
-        wait = new WebDriverWait(DriverSetup.getInstance(),10);
+        wait = new WebDriverWait(DriverFactory.getDriver(),10);
     }
 
     public static void  waitImplicitly(){
         System.out.println("Wait implicitly start: ");
-        wait = new WebDriverWait(DriverSetup.getInstance(),10);
+        wait = new WebDriverWait(DriverFactory.getDriver(),10);
         try {
             wait.wait(2);
         } catch (InterruptedException e) {

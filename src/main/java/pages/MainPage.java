@@ -3,11 +3,11 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utils.DriverSetup;
+import utils.DriverFactory;
 
 public class MainPage {
     public MainPage (){
-        PageFactory.initElements(DriverSetup.getInstance(), this);
+        PageFactory.initElements(DriverFactory.getDriver(), this);
     }
 
 
