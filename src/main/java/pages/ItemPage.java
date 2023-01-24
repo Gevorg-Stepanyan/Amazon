@@ -8,7 +8,7 @@ public class ItemPage extends MainPage{
     @FindBy(xpath = "//*[@id=\"feature-bullets\"]/ul")
     private WebElement aboutItemInfo;
 
-    public WebElement getAboutItemInfo() {
-        return aboutItemInfo;
+    public String getAboutItemInfo() {
+        return aboutItemInfo.getText();
     }
 }

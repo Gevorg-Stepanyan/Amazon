@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import utils.ActionHelper;
 
 public class TelevisionsPage extends MainPage{
 
@@ -17,19 +18,23 @@ public class TelevisionsPage extends MainPage{
     @FindBy(xpath = "//*[@id=\"search\"]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/div[2]/div[1]/h2/a/span")
     private WebElement secondFromHighest;
 
-    public WebElement getSamsungCheckBox() {
-        return samsungCheckBox;
+    public TelevisionsPage clickOnSamsungCheckBox() {
+        ActionHelper.clickOnElement(samsungCheckBox);
+        return this;
     }
 
-    public WebElement getSortList() {
-        return sortList;
+    public TelevisionsPage clickOnSortListButton() {
+        ActionHelper.clickOnElement(sortList);
+        return this;
     }
 
-    public WebElement getSortHighToLow() {
-        return sortHighToLow;
+    public TelevisionsPage clickOnSortHighestToLowButton() {
+        ActionHelper.clickOnElement(sortHighToLow);
+        return this;
     }
 
-    public WebElement getSecondFromHighest() {
-        return secondFromHighest;
+    public TelevisionsPage clickSecondFromHighest() {
+        ActionHelper.clickOnElement(secondFromHighest);
+        return this;
     }
 }
