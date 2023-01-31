@@ -1,5 +1,6 @@
 package tests;
 
+import configs.ConfigReader;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
@@ -8,38 +9,30 @@ import org.testng.asserts.SoftAssert;
 import pages.*;
 import utils.Browser;
 import utils.DriverFactory;
-
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
 
 public class BaseTest  {
     protected WebDriver driver;
-    protected JavascriptExecutor js;
-    SoftAssert softAssert;
+    protected SoftAssert softAssert;
     protected MainPage mainPage;
     protected AllMenuPage allMenuPage;
     protected TvAudioCamerasPage tvAudioCamerasPage;
     protected TelevisionsPage tvPage;
     protected ItemPage itemPage;
 
-    protected static final String BASE_URL = "https://www.amazon.in/";
-
     @BeforeMethod
-    void driverSetuo(){
+    void driverSetuo() throws IOException {
         DriverFactory.initDriver(Browser.CHROME);
         driver = DriverFactory.getDriver();
-        driver.get(BASE_URL);
-        js = (JavascriptExecutor) driver;
+        driver.get(ConfigReader.dataReader("baseUrl"));
         mainPage = new MainPage();
         allMenuPage = new AllMenuPage();
         tvAudioCamerasPage = new TvAudioCamerasPage();
         tvPage = new TelevisionsPage();
         itemPage = new ItemPage();
         softAssert = new SoftAssert();
-    }
-
-    protected void scroll(int pixels){
-        js.executeScript("window.scrollBy(0,pixels)", "");
     }
 
     @AfterMethod

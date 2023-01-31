@@ -1,21 +1,23 @@
 package tests;
 
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
 
 public class MainTest extends BaseTest {
 
-
+    JavascriptExecutor js = (JavascriptExecutor) driver;
     @Test
     void checkAboutItemInfoOfSecondFromHighest()  {
+        driver.manage().window().fullscreen();
         mainPage.clickOnMenuElement();
         allMenuPage.clickOnTvButton();
         tvAudioCamerasPage.clickOnTelevisionsButton();
-        scroll(3000);
+        js.executeScript("window.scrollBy(10000)", "");
         tvPage.clickOnSamsungCheckBox().clickOnSortListButton().clickOnSortHighestToLowButton().clickSecondFromHighest();
         switchWindow();
-        scroll(1000);
+        js.executeScript("window.scrollBy(3000)", "");
         String expectedText = itemPage.getAboutItemInfo();
         softAssert.assertNotNull(expectedText);
         System.out.println("Expected text----\n" + expectedText);

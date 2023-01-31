@@ -11,7 +11,7 @@ public class MainPage {
         PageFactory.initElements(DriverFactory.getDriver(), this);
     }
 
-    @FindBy(linkText = "All")
+    @FindBy(xpath = "//*[@id=\"nav-hamburger-menu\"]/span")
     private WebElement menu;
 
     public MainPage clickOnMenuElement() {
