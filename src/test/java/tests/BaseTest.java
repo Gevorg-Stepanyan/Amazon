@@ -23,7 +23,7 @@ public class BaseTest  {
     protected ItemPage itemPage;
 
     @BeforeMethod
-    void driverSetuo() throws IOException {
+    void driverSetup() throws IOException {
         DriverFactory.initDriver(Browser.CHROME);
         driver = DriverFactory.getDriver();
         driver.get(ConfigReader.dataReader("baseUrl"));

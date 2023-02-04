@@ -2,14 +2,13 @@ package pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import utils.ActionHelper;
 
 public class TelevisionsPage extends MainPage{
 
     @FindBy(xpath = "//*[@id=\"s-refinements\"]/div[24]/ul/li[2]/span/a/div/label/i")
     private WebElement samsungCheckBox;
 
-    @FindBy(id = "a-autoid-0-announce")
+    @FindBy(id = "a-autoid-0")
     private WebElement sortList;
 
     @FindBy(id = "s-result-sort-select_2")
@@ -19,22 +18,22 @@ public class TelevisionsPage extends MainPage{
     private WebElement secondFromHighest;
 
     public TelevisionsPage clickOnSamsungCheckBox() {
-        ActionHelper.clickOnElement(samsungCheckBox);
+        clickOnElement(samsungCheckBox);
         return this;
     }
 
     public TelevisionsPage clickOnSortListButton() {
-        ActionHelper.clickOnElement(sortList);
+        clickOnElement(sortList);
         return this;
     }
 
     public TelevisionsPage clickOnSortHighestToLowButton() {
-        ActionHelper.clickOnElement(sortHighToLow);
+        clickOnElement(sortHighToLow);
         return this;
     }
 
     public TelevisionsPage clickSecondFromHighest() {
-        ActionHelper.clickOnElement(secondFromHighest);
+        clickOnElement(secondFromHighest);
         return this;
     }
 }

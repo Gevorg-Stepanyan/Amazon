@@ -7,17 +7,18 @@ import org.testng.annotations.Test;
 
 public class MainTest extends BaseTest {
 
-    JavascriptExecutor js = (JavascriptExecutor) driver;
+
     @Test
     void checkAboutItemInfoOfSecondFromHighest()  {
         driver.manage().window().fullscreen();
         mainPage.clickOnMenuElement();
         allMenuPage.clickOnTvButton();
         tvAudioCamerasPage.clickOnTelevisionsButton();
-        js.executeScript("window.scrollBy(10000)", "");
+        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        jse.executeScript("window.scrollBy(0,250)");
         tvPage.clickOnSamsungCheckBox().clickOnSortListButton().clickOnSortHighestToLowButton().clickSecondFromHighest();
         switchWindow();
-        js.executeScript("window.scrollBy(3000)", "");
+        jse.executeScript("window.scrollBy(0,250)");
         String expectedText = itemPage.getAboutItemInfo();
         softAssert.assertNotNull(expectedText);
         System.out.println("Expected text----\n" + expectedText);

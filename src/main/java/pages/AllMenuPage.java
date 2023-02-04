@@ -2,16 +2,16 @@ package pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import utils.ActionHelper;
+
 
 public class AllMenuPage extends MainPage{
 
 
-    @FindBy(linkText = "TV, Appliances, Electronics")
+    @FindBy(xpath = "//*[@id=\"hmenu-content\"]/ul[1]/li[17]/a")
     private WebElement tv;
 
     public AllMenuPage clickOnTvButton() {
-        ActionHelper.clickOnElement(tv);
+        clickOnElement(tv);
         return this;
     }
 }

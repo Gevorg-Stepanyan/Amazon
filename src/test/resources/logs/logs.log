@@ -1,0 +1,4 @@
+2023-02-04 13:54:00 INFO  MainPage:24 - Waiting until element is visible[[ChromeDriver: chrome on MAC (c6ae5e193d4050607c578cc806cda72f)] -> xpath: //*[@id="nav-hamburger-menu"]/span]
+2023-02-04 13:54:01 INFO  MainPage:26 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (c6ae5e193d4050607c578cc806cda72f)] -> xpath: //*[@id="nav-hamburger-menu"]/span]
+2023-02-04 13:54:01 INFO  MainPage:29 - Clicked successfully in element[[ChromeDriver: chrome on MAC (c6ae5e193d4050607c578cc806cda72f)] -> xpath: //*[@id="nav-hamburger-menu"]/span]
+2023-02-04 13:54:01 INFO  AllMenuPage:24 - Waiting until element is visible[[ChromeDriver: chrome on MAC (c6ae5e193d4050607c578cc806cda72f)] -> xpath: //*[@id="hmenu-content"]/ul[1]/li[17]/a]
