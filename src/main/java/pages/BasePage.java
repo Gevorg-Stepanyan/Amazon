@@ -19,7 +19,6 @@ public class BasePage {
     }
 
     protected   void clickOnElement(WebElement element){
-
         Actions actions = new Actions(DriverFactory.getDriver());
         logger.info("Waiting until element is visible" + element);
         WaitHelper.waitUntilElementIsVisible(element);
@@ -30,7 +29,6 @@ public class BasePage {
     }
 
     protected   void waitUntilElementIsVisible(WebElement element){
-        Actions actions = new Actions(DriverFactory.getDriver());
         logger.info("Waiting until element is visible" + element);
         WaitHelper.waitUntilElementIsVisible(element);
         logger.info("Element is visible" + element);

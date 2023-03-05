@@ -10,7 +10,7 @@ public class ConfigReader {
     static FileInputStream ip;
     public static String dataReader(String key) throws IOException {
         try {
-            ip = new FileInputStream("/Users/gevorgstepanyan/Desktop/Am/Amazon/src/main/java/configs/config.properties");
+            ip = new FileInputStream("src/main/java/configs/config.properties");
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
