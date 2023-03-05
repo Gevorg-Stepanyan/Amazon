@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 public class AllMenuPage extends MainPage{
 
 
-    @FindBy(xpath = "//*[@id=\"hmenu-content\"]/ul[1]/li[17]/a")
+    @FindBy(linkText = "TV, Appliances, Electronics")
     private WebElement tv;
 
     public AllMenuPage clickOnTvButton() {

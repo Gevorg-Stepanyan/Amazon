@@ -10,7 +10,7 @@ public class MainPage extends BasePage{
         super();
     }
 
-    @FindBy(xpath = "//*[@id=\"nav-hamburger-menu\"]/span")
+    @FindBy(id = "nav-hamburger-menu")
     private WebElement menu;
 
     public MainPage clickOnMenuElement() {
