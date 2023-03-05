@@ -101,3 +101,49 @@
 2023-03-06 00:37:14 INFO  TelevisionsPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (481ff941a0cf125ca33904eaa75627ee)] -> xpath: //*[@id="search"]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/div[2]/div[1]/h2/a/span]
 2023-03-06 00:37:14 INFO  TelevisionsPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (481ff941a0cf125ca33904eaa75627ee)] -> xpath: //*[@id="search"]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/div[2]/div[1]/h2/a/span]
 2023-03-06 00:37:14 INFO  TelevisionsPage:28 - Clicked successfully in element[[ChromeDriver: chrome on MAC (481ff941a0cf125ca33904eaa75627ee)] -> xpath: //*[@id="search"]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/div[2]/div[1]/h2/a/span]
+2023-03-06 00:41:20 INFO  MainPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (2fb499dbb84ec7a24af2a6f19a469b98)] -> id: nav-hamburger-menu]
+2023-03-06 00:41:21 INFO  MainPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (2fb499dbb84ec7a24af2a6f19a469b98)] -> id: nav-hamburger-menu]
+2023-03-06 00:41:22 INFO  MainPage:28 - Clicked successfully in element[[ChromeDriver: chrome on MAC (2fb499dbb84ec7a24af2a6f19a469b98)] -> id: nav-hamburger-menu]
+2023-03-06 00:41:23 INFO  AllMenuPage:23 - Waiting until element is visibleProxy element for: DefaultElementLocator 'By.linkText: TV, Appliances, Electronics'
+2023-03-06 00:41:55 INFO  MainPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> id: nav-hamburger-menu]
+2023-03-06 00:41:55 INFO  MainPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> id: nav-hamburger-menu]
+2023-03-06 00:41:56 INFO  MainPage:28 - Clicked successfully in element[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> id: nav-hamburger-menu]
+2023-03-06 00:41:57 INFO  AllMenuPage:23 - Waiting until element is visibleProxy element for: DefaultElementLocator 'By.linkText: TV, Appliances, Electronics'
+2023-03-06 00:41:58 INFO  AllMenuPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> link text: TV, Appliances, Electronics]
+2023-03-06 00:42:00 INFO  AllMenuPage:28 - Clicked successfully in element[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> link text: TV, Appliances, Electronics]
+2023-03-06 00:42:00 INFO  TvAudioCamerasPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> xpath: //*[@id="hmenu-content"]/ul[9]/li[3]/a]
+2023-03-06 00:42:00 INFO  TvAudioCamerasPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> xpath: //*[@id="hmenu-content"]/ul[9]/li[3]/a]
+2023-03-06 00:42:03 INFO  TvAudioCamerasPage:28 - Clicked successfully in elementProxy element for: DefaultElementLocator 'By.xpath: //*[@id="hmenu-content"]/ul[9]/li[3]/a'
+2023-03-06 00:42:04 INFO  TelevisionsPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> xpath: //*[@id="s-refinements"]/div[24]/ul/li[2]/span/a/div/label/i]
+2023-03-06 00:42:04 INFO  TelevisionsPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> xpath: //*[@id="s-refinements"]/div[24]/ul/li[2]/span/a/div/label/i]
+2023-03-06 00:42:07 INFO  TelevisionsPage:28 - Clicked successfully in elementProxy element for: DefaultElementLocator 'By.xpath: //*[@id="s-refinements"]/div[24]/ul/li[2]/span/a/div/label/i'
+2023-03-06 00:42:07 INFO  TelevisionsPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> id: a-autoid-0]
+2023-03-06 00:42:07 INFO  TelevisionsPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> id: a-autoid-0]
+2023-03-06 00:42:08 INFO  TelevisionsPage:28 - Clicked successfully in element[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> id: a-autoid-0]
+2023-03-06 00:42:08 INFO  TelevisionsPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> id: s-result-sort-select_2]
+2023-03-06 00:42:08 INFO  TelevisionsPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> id: s-result-sort-select_2]
+2023-03-06 00:42:09 INFO  TelevisionsPage:28 - Clicked successfully in elementProxy element for: DefaultElementLocator 'By.id: s-result-sort-select_2'
+2023-03-06 00:42:09 INFO  TelevisionsPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> xpath: //*[@id="search"]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/div[2]/div[1]/h2/a/span]
+2023-03-06 00:42:10 INFO  TelevisionsPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> xpath: //*[@id="search"]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/div[2]/div[1]/h2/a/span]
+2023-03-06 00:42:10 INFO  TelevisionsPage:28 - Clicked successfully in element[[ChromeDriver: chrome on MAC (eeb3d9cc9c6c4dd9bcdd4f05294f8df7)] -> xpath: //*[@id="search"]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/div[2]/div[1]/h2/a/span]
+2023-03-06 00:47:03 INFO  MainPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> id: nav-hamburger-menu]
+2023-03-06 00:47:03 INFO  MainPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> id: nav-hamburger-menu]
+2023-03-06 00:47:04 INFO  MainPage:28 - Clicked successfully in element[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> id: nav-hamburger-menu]
+2023-03-06 00:47:05 INFO  AllMenuPage:23 - Waiting until element is visibleProxy element for: DefaultElementLocator 'By.linkText: TV, Appliances, Electronics'
+2023-03-06 00:47:07 INFO  AllMenuPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> link text: TV, Appliances, Electronics]
+2023-03-06 00:47:08 INFO  AllMenuPage:28 - Clicked successfully in element[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> link text: TV, Appliances, Electronics]
+2023-03-06 00:47:08 INFO  TvAudioCamerasPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> xpath: //*[@id="hmenu-content"]/ul[9]/li[3]/a]
+2023-03-06 00:47:08 INFO  TvAudioCamerasPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> xpath: //*[@id="hmenu-content"]/ul[9]/li[3]/a]
+2023-03-06 00:47:12 INFO  TvAudioCamerasPage:28 - Clicked successfully in elementProxy element for: DefaultElementLocator 'By.xpath: //*[@id="hmenu-content"]/ul[9]/li[3]/a'
+2023-03-06 00:47:12 INFO  TelevisionsPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> xpath: //*[@id="s-refinements"]/div[24]/ul/li[3]/span/a/div/label/i]
+2023-03-06 00:47:12 INFO  TelevisionsPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> xpath: //*[@id="s-refinements"]/div[24]/ul/li[3]/span/a/div/label/i]
+2023-03-06 00:47:15 INFO  TelevisionsPage:28 - Clicked successfully in elementProxy element for: DefaultElementLocator 'By.xpath: //*[@id="s-refinements"]/div[24]/ul/li[3]/span/a/div/label/i'
+2023-03-06 00:47:15 INFO  TelevisionsPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> id: a-autoid-0]
+2023-03-06 00:47:15 INFO  TelevisionsPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> id: a-autoid-0]
+2023-03-06 00:47:16 INFO  TelevisionsPage:28 - Clicked successfully in element[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> id: a-autoid-0]
+2023-03-06 00:47:16 INFO  TelevisionsPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> id: s-result-sort-select_2]
+2023-03-06 00:47:16 INFO  TelevisionsPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> id: s-result-sort-select_2]
+2023-03-06 00:47:18 INFO  TelevisionsPage:28 - Clicked successfully in elementProxy element for: DefaultElementLocator 'By.id: s-result-sort-select_2'
+2023-03-06 00:47:18 INFO  TelevisionsPage:23 - Waiting until element is visible[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> xpath: //*[@id="search"]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/div[2]/div[1]/h2/a/span]
+2023-03-06 00:47:18 INFO  TelevisionsPage:25 - Waiting ntil element is clickable[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> xpath: //*[@id="search"]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/div[2]/div[1]/h2/a/span]
+2023-03-06 00:47:18 INFO  TelevisionsPage:28 - Clicked successfully in element[[ChromeDriver: chrome on MAC (3cf7edfe9a66b61412af699bd60afef6)] -> xpath: //*[@id="search"]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/div[2]/div[1]/h2/a/span]

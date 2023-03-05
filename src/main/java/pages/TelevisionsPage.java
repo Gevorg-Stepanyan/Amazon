@@ -5,7 +5,8 @@ import org.openqa.selenium.support.FindBy;
 
 public class TelevisionsPage extends MainPage{
 
-    @FindBy(xpath = "//*[@id=\"s-refinements\"]/div[24]/ul/li[2]/span/a/div/label/i")
+
+    @FindBy(xpath = "//*[@id=\"s-refinements\"]/div[24]/ul/li[3]/span/a/div/label/i")
     private WebElement samsungCheckBox;
 
     @FindBy(id = "a-autoid-0")
